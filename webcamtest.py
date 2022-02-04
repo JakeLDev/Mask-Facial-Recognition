@@ -17,7 +17,7 @@ from keras.models import Sequential
 # from keras.applications import imagenet_utils
 load_model = keras.models.load_model('densenet121_detection_model.h5')
 
-labels_dict={1:'without_mask',0:'with_mask'}
+labels_dict={0:'without_mask',1:'with_mask'}
 color_dict={0:(0,0,255),1:(0,255,0)}
 
 size = 4
